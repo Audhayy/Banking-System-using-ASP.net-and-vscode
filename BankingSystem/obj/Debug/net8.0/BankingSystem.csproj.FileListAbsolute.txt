@@ -1,0 +1,14 @@
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\bin\Debug\net8.0\BankingSystem.exe
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\bin\Debug\net8.0\BankingSystem.deps.json
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\bin\Debug\net8.0\BankingSystem.runtimeconfig.json
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\bin\Debug\net8.0\BankingSystem.dll
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\bin\Debug\net8.0\BankingSystem.pdb
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\Debug\net8.0\BankingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\Debug\net8.0\BankingSystem.AssemblyInfoInputs.cache
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\Debug\net8.0\BankingSystem.AssemblyInfo.cs
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\Debug\net8.0\BankingSystem.csproj.CoreCompileInputs.cache
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\Debug\net8.0\BankingSystem.dll
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\Debug\net8.0\refint\BankingSystem.dll
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\Debug\net8.0\BankingSystem.pdb
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\Debug\net8.0\BankingSystem.genruntimeconfig.cache
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\Debug\net8.0\ref\BankingSystem.dll
