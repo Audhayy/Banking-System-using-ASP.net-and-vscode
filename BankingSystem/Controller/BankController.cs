@@ -5,6 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using BankingSystem.Service;
+using BankingSystem.Util;
 
 namespace BankingSystem.Controller
 {
@@ -15,6 +16,7 @@ namespace BankingSystem.Controller
         public void UserChoice()
         {   
             bool breakout = false;
+            string accountNumber;
             Console.WriteLine("Press Ctrl+C to Exit the Application");
             while (!breakout)
             {
@@ -33,11 +35,23 @@ namespace BankingSystem.Controller
                         addAccount();
                         break;
                     case "2":
-                        Console.WriteLine("You chose to display a specific account detail");
-                        Console.WriteLine("enter the required account number");
-                        string accountNumber = Console.ReadLine();
-                        var result = _accountService.GetAccount(accountNumber);
-                        Console.WriteLine(result.ToString());
+                        try
+                        {
+                            Console.WriteLine("You chose to display a specific account detail");
+                            Console.WriteLine("enter the required account number");
+                            accountNumber = Console.ReadLine();
+                            var result = _accountService.GetAccount(accountNumber);
+                            Console.WriteLine(result.ToString());
+                        }
+                        catch (InvalidOperationException ex)
+                        {
+                            Console.WriteLine($"Error: {ex.Message}");
+                        }
+                        catch(BankingException ex)
+                        {
+                            Console.WriteLine($"Error: {ex.Message}");
+                        }
+
                         break;
                     case "3":
                         Console.WriteLine("You chose to display all records");
@@ -46,7 +60,6 @@ namespace BankingSystem.Controller
                         {
                             Console.WriteLine(i.Value);
                         }
-
                         break;
                     case "4":
                         Console.WriteLine("You chose to Delete an bank account");
@@ -72,12 +85,18 @@ namespace BankingSystem.Controller
 
         private void addAccount()
         {
-
-            Console.WriteLine("Please enter your Full name");
-            string name = Console.ReadLine();
-            Console.WriteLine("Please enter your Address:");
-            string address = Console.ReadLine();
-            _accountService.AddAccount(name, address);
+            try
+            {
+                Console.WriteLine("Please enter your Full name");
+                string name = Console.ReadLine();
+                Console.WriteLine("Please enter your Address:");
+                string address = Console.ReadLine();
+                _accountService.AddAccount(name, address);
+            }
+            catch (BankingException ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
 
         }
     }

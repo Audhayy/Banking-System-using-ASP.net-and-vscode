@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,19 @@ namespace BankingSystem.Service
 {
     public class AccountService
     {
-        BankingRepository bankingRepository = new BankingRepository();
+        private readonly BankingRepository _bankingRepository = new BankingRepository();
+        private readonly AccountGenerator _accountGenerator;
+
+        public AccountService(BankingRepository bankingRepository)
+        {
+            //_bankingRepository = bankingRepository;
+            _accountGenerator = new AccountGenerator(); 
+        }
+
+        public AccountService()
+        {
+
+        }
         public void AddAccount(string name, string address)
         {
 
@@ -22,7 +35,7 @@ namespace BankingSystem.Service
 
             var id = AccountGenerator.GenerateUserID();
 
-            bankingRepository.AddAccount(new Account()
+            _bankingRepository.AddAccount(new Account()
             {
                 Name = name,
                 Id = id,
@@ -35,33 +48,58 @@ namespace BankingSystem.Service
         }
         public Dictionary<string,Account> GetAllAccounts()
         {
-           return bankingRepository.GetAllAccounts();
+           return _bankingRepository.GetAllAccounts();
            
         }
         public Account GetAccount(string accountNumber)
         {
-            return bankingRepository.GetAccount(accountNumber);
+            try
+            {
+                return _bankingRepository.GetAccount(accountNumber);
+            }
+            catch (InvalidOperationException ex)
+            {
+                throw ex;
+            }
+            catch (BankingException ex)
+            {
+                throw ex;
+            }
         }
         public Account addDeposit(string accountNumber,string amount)
         {
-            double convertedAmount = Convert.ToDouble(amount);
-            return bankingRepository.DepositIntoAccount(accountNumber,convertedAmount);
-            
+            if (double.TryParse(amount, out double convertedAmount))
+            {
+                return _bankingRepository.DepositIntoAccount(accountNumber, convertedAmount);
+            }
+            else
+            {
+                throw new BankingException("Could not parse the input provided");
+            }
         }
         public bool WithdrawAmount(string accountNumber,string amount)
         {
 
-            double convertedAmount = Convert.ToDouble(amount);
-            if (bankingRepository.CheckBalance(accountNumber) > convertedAmount)
-            {
-                bankingRepository.WithdrawFromAccount(accountNumber, convertedAmount);
-                return true;
-            }
-            return false;
+           
+           if(double.TryParse(amount, out double convertedAmount))
+           {
+               if (_bankingRepository.CheckBalance(accountNumber) > convertedAmount)
+               {
+                   _bankingRepository.WithdrawFromAccount(accountNumber, convertedAmount);
+                   return true;
+               }
+
+
+               return false;
+           }
+           else
+           {
+                throw new BankingException("could not parse the input");
+           }
         }
         public double analyzeBalance(string accountNumber)
         {
-            return bankingRepository.CheckBalance(accountNumber);
+            return _bankingRepository.CheckBalance(accountNumber);
         }
 
     }

@@ -1,67 +1,122 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.Marshalling;
 using System.Text;
 using System.Threading.Tasks;
 using BankingSystem.Dto;
 using BankingSystem.Model;
+using BankingSystem.Util;
 
 namespace BankingSystem.Repository
 {
-    internal class BankingRepository
+    public class BankingRepository
     {
         static Dictionary<string, Account> _accounts = new();
 
+
         public void AddAccount(Account account)
         {
-            _accounts.Add(account.AccountNumber, account);
+            try
+            {
+                _accounts.Add(account.AccountNumber, account);
+
+            }
+            catch (ArgumentException ex)
+            {
+
+                throw new BankingException("Account with the same number already exist", ex);
+            }
         }
 
         public Account DepositIntoAccount(string accountNumber,double amount)
         {
-
-            var details = GetAccount(accountNumber);
-            if (details != null)
+            try
             {
-                details.balance += amount;
+                var details = GetAccount(accountNumber);
+                if (details != null)
+                {
+                    details.balance += amount;
+                    return details;
+                }
+                else
+                {
+                    throw new InvalidOperationException("Account Not found");
+                }
             }
-     
+            catch (Exception ex)
+            {
+                throw new BankingException("Failed to deposit into your account", ex);
+            }
 
-            return null;
         }
 
         public void WithdrawFromAccount(string accountNumber, double amount)
         {
-            var details = GetAccount(accountNumber);
-            if (details != null)
+            try
             {
-                details.balance = details.balance - amount;
+                var details = GetAccount(accountNumber);
+                if (details != null)
+                {
+                    details.balance = details.balance - amount;
+                }
+                else
+                {
+                    throw new InvalidOperationException("Account not found!");
+                }
             }
-            
-            
+            catch (Exception ex)
+            {
+                throw new BankingException("Failed to Withdraw from your account", ex);
+            }
+
+
         }
 
         public double CheckBalance(string accountNumber)
         {
-            var account = GetAccount(accountNumber);
-            if (account != null)
+            try
             {
-                return account.balance;
+                var account = GetAccount(accountNumber);
+                if (account != null)
+                {
+                    return account.balance;
+                }
+                else
+                {
+                    throw new InvalidOperationException("Account not found!");
+                }
             }
+            catch (Exception ex)
+            {
+                throw new BankingException("Failed to Check balance", ex);
+            }
+
             return 0;
         }
 
         public Account GetAccount(string accountNumber)
         {
-            foreach (var account in _accounts)
+            try
             {
-                if (account.Key.Equals(accountNumber))
+                foreach (var account in _accounts)
                 {
-                    var acc = account;
-                    var value = acc.Value;
-                    return value;
+                    if (account.Key.Equals(accountNumber))
+                    {
+                        var acc = account;
+                        var value = acc.Value;
+                        return value;
+                    }
+                    else
+                    {
+                        throw new InvalidOperationException("There is no such account Number");
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                throw new BankingException("Failed to get Account from the repository!", ex);
             }
 
             return null;
@@ -69,7 +124,15 @@ namespace BankingSystem.Repository
 
         public Dictionary<string,Account> GetAllAccounts()
         {
-            return _accounts;
+            try
+            {
+
+                return _accounts;
+            }
+            catch (Exception ex)
+            {
+                throw new BankingException("Failed to get all accounts ", ex);
+            }
         }
     }
 }

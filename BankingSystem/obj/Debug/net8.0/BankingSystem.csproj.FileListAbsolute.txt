@@ -12,3 +12,4 @@ C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\De
 C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\Debug\net8.0\BankingSystem.pdb
 C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\Debug\net8.0\BankingSystem.genruntimeconfig.cache
 C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\Debug\net8.0\ref\BankingSystem.dll
+C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\obj\Debug\net8.0\BankingSystem.sourcelink.json
