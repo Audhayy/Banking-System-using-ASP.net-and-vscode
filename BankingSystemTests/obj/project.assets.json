@@ -5529,11 +5529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystemTests\\BankingSystemTests.csproj",
+      "projectUniqueName": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystemTests\\BankingSystemTests.csproj",
       "projectName": "BankingSystemTests",
-      "projectPath": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystemTests\\BankingSystemTests.csproj",
+      "projectPath": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystemTests\\BankingSystemTests.csproj",
       "packagesPath": "C:\\Users\\audhithiyah.srishank\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystemTests\\obj\\",
+      "outputPath": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystemTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\audhithiyah.srishank\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5551,8 +5551,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\BankingSystem.csproj": {
-              "projectPath": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\BankingSystem.csproj"
+            "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\BankingSystem.csproj": {
+              "projectPath": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\BankingSystem.csproj"
             }
           }
         }

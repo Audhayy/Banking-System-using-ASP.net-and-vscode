@@ -1,0 +1,3 @@
+2024-10-22 19:14:43 [INFO] Account has been added successfully
+2024-10-22 19:15:39 [WARNING] Account does not exist
+2024-10-23 14:19:44 [INFO] Account has been added successfully

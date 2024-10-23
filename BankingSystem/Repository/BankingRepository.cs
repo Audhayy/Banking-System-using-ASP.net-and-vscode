@@ -6,6 +6,7 @@ using System.Runtime.InteropServices.Marshalling;
 using System.Text;
 using System.Threading.Tasks;
 using BankingSystem.Dto;
+using BankingSystem.logger;
 using BankingSystem.Model;
 using BankingSystem.Util;
 
@@ -15,17 +16,19 @@ namespace BankingSystem.Repository
     {
         static Dictionary<string, Account> _accounts = new();
 
-
+        private readonly LogHandler _logger = new();
         public void AddAccount(Account account)
         {
             try
             {
                 _accounts.Add(account.AccountNumber, account);
+                _logger.LogInfo($"Account has been added successfully");
+
 
             }
             catch (ArgumentException ex)
             {
-
+                _logger.LogWarning($"Account {account.AccountNumber} with the same number already exist");
                 throw new BankingException("Account with the same number already exist", ex);
             }
         }
@@ -100,6 +103,11 @@ namespace BankingSystem.Repository
         {
             try
             {
+                if (_accounts == null)
+                {
+                    _logger.LogWarning($"Account does not exist");
+                    throw new InvalidOperationException("There is no such account Number");
+                }
                 foreach (var account in _accounts)
                 {
                     if (account.Key.Equals(accountNumber))
@@ -110,6 +118,7 @@ namespace BankingSystem.Repository
                     }
                     else
                     {
+                        _logger.LogWarning($"Account does not exist");
                         throw new InvalidOperationException("There is no such account Number");
                     }
                 }
@@ -119,7 +128,7 @@ namespace BankingSystem.Repository
                 throw new BankingException("Failed to get Account from the repository!", ex);
             }
 
-            return null;
+            return new();
         }
 
         public Dictionary<string,Account> GetAllAccounts()

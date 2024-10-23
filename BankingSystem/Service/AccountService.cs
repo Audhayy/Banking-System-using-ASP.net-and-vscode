@@ -53,18 +53,19 @@ namespace BankingSystem.Service
         }
         public Account GetAccount(string accountNumber)
         {
-            try
-            {
+            //try
+            //{
                 return _bankingRepository.GetAccount(accountNumber);
-            }
-            catch (InvalidOperationException ex)
-            {
-                throw ex;
-            }
-            catch (BankingException ex)
-            {
-                throw ex;
-            }
+            //}
+            //catch (InvalidOperationException ex)
+            //{
+                
+            //    throw ex;
+            //}
+            //catch (BankingException ex)
+            //{
+            //    throw ex;
+            //}
         }
         public Account addDeposit(string accountNumber,string amount)
         {

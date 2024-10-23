@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BankingSystemTests
-build_property.ProjectDir = C:\Audhithiyah\Banking-System-using-ASP.net-and-vscode\BankingSystemTests\
+build_property.ProjectDir = C:\Users\audhithiyah.srishank\source\repos\BankingSystemApp\BankingSystem\Banking-System-using-ASP.net-and-vscode\BankingSystemTests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

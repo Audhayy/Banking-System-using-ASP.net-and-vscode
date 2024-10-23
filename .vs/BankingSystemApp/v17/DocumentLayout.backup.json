@@ -1,60 +1,68 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\",
+  "WorkspaceRootPath": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9EFBAAD7-B853-4850-86D0-05E8C48A7672}|BankingSystemTests\\BankingSystemTests.csproj|c:\\users\\audhithiyah.srishank\\source\\repos\\bankingsystemapp\\bankingsystemtests\\bankingsystemtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9EFBAAD7-B853-4850-86D0-05E8C48A7672}|BankingSystemTests\\BankingSystemTests.csproj|solutionrelative:bankingsystemtests\\bankingsystemtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\users\\audhithiyah.srishank\\source\\repos\\bankingsystemapp\\bankingsystem\\util\\bankingexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\util\\bankingexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\users\\audhithiyah.srishank\\source\\repos\\bankingsystemapp\\bankingsystem\\service\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\service\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\users\\audhithiyah.srishank\\source\\repos\\bankingsystemapp\\bankingsystem\\controller\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystem\\controller\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\controller\\bankcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\users\\audhithiyah.srishank\\source\\repos\\bankingsystemapp\\bankingsystem\\repository\\bankingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystem\\service\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\service\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystem\\logger\\loghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\logger\\loghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystem\\repository\\bankingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\repository\\bankingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystem\\controller\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\controller\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystem\\logger\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\logger\\log.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EFBAAD7-B853-4850-86D0-05E8C48A7672}|BankingSystemTests\\BankingSystemTests.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystemtests\\bankingsystemtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EFBAAD7-B853-4850-86D0-05E8C48A7672}|BankingSystemTests\\BankingSystemTests.csproj|solutionrelative:bankingsystemtests\\bankingsystemtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystem\\util\\bankingexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\util\\bankingexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\audhithiyah.srishank\\source\\repos\\SimpleInterestCalculatorApp\\SimpleInterestCalculatorTests\\SimpleInterestCalculatorTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\users\\audhithiyah.srishank\\source\\repos\\bankingsystemapp\\bankingsystem\\util\\accountgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystem\\util\\accountgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\util\\accountgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\users\\audhithiyah.srishank\\source\\repos\\bankingsystemapp\\bankingsystem\\controller\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\controller\\operationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9EFBAAD7-B853-4850-86D0-05E8C48A7672}|BankingSystemTests\\BankingSystemTests.csproj|c:\\users\\audhithiyah.srishank\\source\\repos\\bankingsystemapp\\bankingsystemtests\\bankingsystemtests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{9EFBAAD7-B853-4850-86D0-05E8C48A7672}|BankingSystemTests\\BankingSystemTests.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystemtests\\bankingsystemtests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9EFBAAD7-B853-4850-86D0-05E8C48A7672}|BankingSystemTests\\BankingSystemTests.csproj|solutionrelative:bankingsystemtests\\bankingsystemtests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\users\\audhithiyah.srishank\\source\\repos\\bankingsystemapp\\bankingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\users\\audhithiyah.srishank\\source\\repos\\bankingsystemapp\\bankingsystem\\model\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystem\\model\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\model\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\users\\audhithiyah.srishank\\source\\repos\\bankingsystemapp\\bankingsystem\\dto\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystem\\dto\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\dto\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\users\\audhithiyah.srishank\\source\\repos\\bankingsystemapp\\bankingsystem\\mapper\\accountmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystem\\mapper\\accountmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\mapper\\accountmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\users\\audhithiyah.srishank\\source\\repos\\bankingsystemapp\\bankingsystem\\bankingsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|c:\\audhithiyah\\banking-system-using-asp.net-and-vscode\\bankingsystem\\bankingsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{14ADC63D-F624-4A3A-9D52-13BC77BF9AD3}|BankingSystem\\BankingSystem.csproj|solutionrelative:bankingsystem\\bankingsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -65,153 +73,172 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BankingSystemTests",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystemTests\\BankingSystemTests.csproj",
-              "RelativeDocumentMoniker": "BankingSystemTests\\BankingSystemTests.csproj",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystemTests\\BankingSystemTests.csproj",
-              "RelativeToolTip": "BankingSystemTests\\BankingSystemTests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-03T11:39:29.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SimpleInterestCalculatorTests.cs",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\SimpleInterestCalculatorApp\\SimpleInterestCalculatorTests\\SimpleInterestCalculatorTests.cs",
-              "RelativeDocumentMoniker": "..\\SimpleInterestCalculatorApp\\SimpleInterestCalculatorTests\\SimpleInterestCalculatorTests.cs",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\SimpleInterestCalculatorApp\\SimpleInterestCalculatorTests\\SimpleInterestCalculatorTests.cs",
-              "RelativeToolTip": "..\\SimpleInterestCalculatorApp\\SimpleInterestCalculatorTests\\SimpleInterestCalculatorTests.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAgwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T10:30:02.076Z",
-              "EditorCaption": ""
+              "Title": "log.txt",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\logger\\log.txt",
+              "RelativeDocumentMoniker": "BankingSystem\\logger\\log.txt",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\logger\\log.txt",
+              "RelativeToolTip": "BankingSystem\\logger\\log.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-22T13:45:01.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BankingSystemTests.cs",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystemTests\\BankingSystemTests.cs",
-              "RelativeDocumentMoniker": "BankingSystemTests\\BankingSystemTests.cs",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystemTests\\BankingSystemTests.cs",
-              "RelativeToolTip": "BankingSystemTests\\BankingSystemTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "OperationsController.cs",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Controller\\OperationsController.cs",
+              "RelativeDocumentMoniker": "BankingSystem\\Controller\\OperationsController.cs",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Controller\\OperationsController.cs",
+              "RelativeToolTip": "BankingSystem\\Controller\\OperationsController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T10:24:11.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T06:08:41.901Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BankingException.cs",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Util\\BankingException.cs",
-              "RelativeDocumentMoniker": "BankingSystem\\Util\\BankingException.cs",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Util\\BankingException.cs",
-              "RelativeToolTip": "BankingSystem\\Util\\BankingException.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T07:06:30.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OperationsController.cs",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Controller\\OperationsController.cs",
-              "RelativeDocumentMoniker": "BankingSystem\\Controller\\OperationsController.cs",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Controller\\OperationsController.cs",
-              "RelativeToolTip": "BankingSystem\\Controller\\OperationsController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T06:08:41.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AccountGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Util\\AccountGenerator.cs",
-              "RelativeDocumentMoniker": "BankingSystem\\Util\\AccountGenerator.cs",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Util\\AccountGenerator.cs",
-              "RelativeToolTip": "BankingSystem\\Util\\AccountGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:30:51.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "AccountService.cs",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Service\\AccountService.cs",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Service\\AccountService.cs",
               "RelativeDocumentMoniker": "BankingSystem\\Service\\AccountService.cs",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Service\\AccountService.cs",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Service\\AccountService.cs",
               "RelativeToolTip": "BankingSystem\\Service\\AccountService.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwDsAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAnwDYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T10:44:12.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T10:44:12.241Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "BankingRepository.cs",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Repository\\BankingRepository.cs",
+              "RelativeDocumentMoniker": "BankingSystem\\Repository\\BankingRepository.cs",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Repository\\BankingRepository.cs",
+              "RelativeToolTip": "BankingSystem\\Repository\\BankingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T07:24:12.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "BankController.cs",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Controller\\BankController.cs",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Controller\\BankController.cs",
               "RelativeDocumentMoniker": "BankingSystem\\Controller\\BankController.cs",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Controller\\BankController.cs",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Controller\\BankController.cs",
               "RelativeToolTip": "BankingSystem\\Controller\\BankController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAADwv10AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T09:53:30.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Program.cs",
+              "RelativeDocumentMoniker": "BankingSystem\\Program.cs",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Program.cs",
+              "RelativeToolTip": "BankingSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T05:53:19.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogHandler.cs",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\logger\\LogHandler.cs",
+              "RelativeDocumentMoniker": "BankingSystem\\logger\\LogHandler.cs",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\logger\\LogHandler.cs",
+              "RelativeToolTip": "BankingSystem\\logger\\LogHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAQwBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T13:04:28.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BankingException.cs",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Util\\BankingException.cs",
+              "RelativeDocumentMoniker": "BankingSystem\\Util\\BankingException.cs",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Util\\BankingException.cs",
+              "RelativeToolTip": "BankingSystem\\Util\\BankingException.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T07:06:30.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BankingSystemTests.cs",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystemTests\\BankingSystemTests.cs",
+              "RelativeDocumentMoniker": "BankingSystemTests\\BankingSystemTests.cs",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystemTests\\BankingSystemTests.cs",
+              "RelativeToolTip": "BankingSystemTests\\BankingSystemTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T10:24:11.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SimpleInterestCalculatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\SimpleInterestCalculatorApp\\SimpleInterestCalculatorTests\\SimpleInterestCalculatorTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\audhithiyah.srishank\\source\\repos\\SimpleInterestCalculatorApp\\SimpleInterestCalculatorTests\\SimpleInterestCalculatorTests.cs",
+              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\SimpleInterestCalculatorApp\\SimpleInterestCalculatorTests\\SimpleInterestCalculatorTests.cs",
+              "RelativeToolTip": "..\\..\\Users\\audhithiyah.srishank\\source\\repos\\SimpleInterestCalculatorApp\\SimpleInterestCalculatorTests\\SimpleInterestCalculatorTests.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T10:30:02.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BankingSystemTests.csproj",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystemTests\\BankingSystemTests.csproj",
+              "RelativeDocumentMoniker": "BankingSystemTests\\BankingSystemTests.csproj",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystemTests\\BankingSystemTests.csproj",
+              "RelativeToolTip": "BankingSystemTests\\BankingSystemTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-03T11:39:29.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountGenerator.cs",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Util\\AccountGenerator.cs",
+              "RelativeDocumentMoniker": "BankingSystem\\Util\\AccountGenerator.cs",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Util\\AccountGenerator.cs",
+              "RelativeToolTip": "BankingSystem\\Util\\AccountGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-30T12:30:51.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "AccountMapper.cs",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Mapper\\AccountMapper.cs",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Mapper\\AccountMapper.cs",
               "RelativeDocumentMoniker": "BankingSystem\\Mapper\\AccountMapper.cs",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Mapper\\AccountMapper.cs",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Mapper\\AccountMapper.cs",
               "RelativeToolTip": "BankingSystem\\Mapper\\AccountMapper.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-30T09:19:17.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AccountDto.cs",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Dto\\AccountDto.cs",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Dto\\AccountDto.cs",
               "RelativeDocumentMoniker": "BankingSystem\\Dto\\AccountDto.cs",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Dto\\AccountDto.cs",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Dto\\AccountDto.cs",
               "RelativeToolTip": "BankingSystem\\Dto\\AccountDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -219,55 +246,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Model\\Account.cs",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Model\\Account.cs",
               "RelativeDocumentMoniker": "BankingSystem\\Model\\Account.cs",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Model\\Account.cs",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\Model\\Account.cs",
               "RelativeToolTip": "BankingSystem\\Model\\Account.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAIBJwA4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:41:06.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T08:41:06.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BankingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Repository\\BankingRepository.cs",
-              "RelativeDocumentMoniker": "BankingSystem\\Repository\\BankingRepository.cs",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Repository\\BankingRepository.cs",
-              "RelativeToolTip": "BankingSystem\\Repository\\BankingRepository.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAswBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T07:24:12.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "BankingSystem.csproj",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\BankingSystem.csproj",
+              "DocumentMoniker": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\BankingSystem.csproj",
               "RelativeDocumentMoniker": "BankingSystem\\BankingSystem.csproj",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\BankingSystem.csproj",
+              "ToolTip": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\BankingSystem.csproj",
               "RelativeToolTip": "BankingSystem\\BankingSystem.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-30T07:10:37.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T07:10:37.798Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Program.cs",
-              "RelativeDocumentMoniker": "BankingSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\Program.cs",
-              "RelativeToolTip": "BankingSystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T05:53:19.455Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

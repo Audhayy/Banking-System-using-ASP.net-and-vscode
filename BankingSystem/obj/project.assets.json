@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\BankingSystem.csproj",
+      "projectUniqueName": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\BankingSystem.csproj",
       "projectName": "BankingSystem",
-      "projectPath": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\BankingSystem.csproj",
+      "projectPath": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\BankingSystem.csproj",
       "packagesPath": "C:\\Users\\audhithiyah.srishank\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\audhithiyah.srishank\\source\\repos\\BankingSystemApp\\BankingSystem\\obj\\",
+      "outputPath": "C:\\Audhithiyah\\Banking-System-using-ASP.net-and-vscode\\BankingSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\audhithiyah.srishank\\AppData\\Roaming\\NuGet\\NuGet.Config",
